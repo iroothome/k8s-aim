@@ -15,6 +15,7 @@ type Tencent struct {
 
 // Config 配置文件
 type Config struct {
+	Manufacturers string `yaml:"manufacturers"` // 云厂商
 	Tencent *Tencent `yaml:"tencent"` // 腾讯云配置
 }
 
