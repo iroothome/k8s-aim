@@ -14,7 +14,7 @@ type ClusterNode struct {
 	Name     string   // kubernetes cluster worker node name
 	HostName string   // ecs hostname
 	Ip       string   // ecs ip address
-	Tag      []string // kubernetes node tags
+	Tags     []string // kubernetes node tags
 }
 
 // Node kubernetes cluster node

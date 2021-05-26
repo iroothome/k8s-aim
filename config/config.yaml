@@ -1,9 +1,10 @@
 manufacturers: tencent
+
 tencent:
   secret-id: AKIDz8krbsJ5yKBZQpn74WFkmLPx3*******
   secret-key: Gu5t9xGARNpq86cd98joQYCN3*******
 
 kubernetes:
   namespace: kube-system
-  kubeConfig:
-  token:
+  kubeConfig: ~/.kubeconfig
+  token: xxx
