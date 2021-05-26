@@ -13,10 +13,18 @@ type Tencent struct {
 	SecretKey string `yaml:"secret_key"` // 用于加密签名字符串和服务器端验证签名字符串的密钥
 }
 
+// Kubernetes kubernetes 相关配置
+type Kubernetes struct {
+	NameSpace  string `yaml:"namespace"`   // 命名空间
+	KubeConfig string `yaml:"kube_config"` // kubeConfig路径
+	Token      string `yaml:"token"`       // kubernetes Token
+}
+
 // Config 配置文件
 type Config struct {
-	Manufacturers string `yaml:"manufacturers"` // 云厂商
-	Tencent *Tencent `yaml:"tencent"` // 腾讯云配置
+	Manufacturers string      `yaml:"manufacturers"` // 云厂商
+	Tencent       *Tencent    `yaml:"tencent"`       // 腾讯云配置
+	Kubernetes    *Kubernetes `yaml:"kubernetes"`    // Kubernetes相关配置
 }
 
 // loadConfig 加载配置文件

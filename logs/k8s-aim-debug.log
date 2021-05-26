@@ -1,0 +1,5 @@
+{"level":"debug","ts":1622014533563,"caller":"zlog/zlog.go:239","msg":"coredns"}
+{"level":"debug","ts":1622014630957,"caller":"zlog/zlog.go:235","msg":"deployment name : [coredns]"}
+{"level":"debug","ts":1622014672312,"caller":"zlog/zlog.go:239","msg":"coredns"}
+{"level":"debug","ts":1622014750614,"caller":"zlog/zlog.go:239","msg":"debug"}
+{"level":"debug","ts":1622014853272,"caller":"zlog/zlog.go:239","msg":"coredns"}
